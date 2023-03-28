@@ -34,15 +34,15 @@
 			</div>
 		</div>
 		<button class="reset" type="button" onclick="reset_data()">RESET</button>
+		<script>
+			if(navigator.serviceWorker) {
+				navigator.serviceWorker.register("/mhwbg-comp/sw.js", {scope: "/mhwbg-comp"});
+			}
+		</script>
 	</body>
 	<footer>
 		<a href="https://github.com/reDBo0n/mhwbg-comp" target="_blank" rel="noopener noreferrer">GitHub</a>
 	</footer>
 	<script src="./js/common.js"></script>
 	<script src="./js/main.js"></script>
-	<script>
-		if(navigator.serviceWorker) {
-			navigator.serviceWorker.register("/mhwbg-comp/sw.js", {scope: "/mhwbg-comp"});
-		}
-	</script>
 </html>
