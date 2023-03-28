@@ -1,0 +1,244 @@
+{
+	"armor": [
+		{
+			"id":		"alloy-helm",
+			"name":		"Alloy Helm",
+			"default":	true
+		},
+		{
+			"id":		"alloy-mail",
+			"name":		"Alloy Mail",
+			"default":	true
+		},
+		{
+			"id":		"alloy-greaves",
+			"name":		"Alloy Greaves",
+			"default":	true
+		},
+		{
+			"id":		"bone-helm",
+			"name":		"Bone Helm",
+			"default":	false
+		},
+		{
+			"id":		"bone-mail",
+			"name":		"Bone Mail",
+			"default":	false
+		},
+		{
+			"id":		"bone-greaves",
+			"name":		"Bone Greaves",
+			"default":	false
+		},
+		{
+			"id":		"anja-helm",
+			"name":		"Anja Helm",
+			"default":	false
+		},
+		{
+			"id":		"anja-mail",
+			"name":		"Anja Mail",
+			"default":	false
+		},
+		{
+			"id":		"anja-greaves",
+			"name":		"Anja Greaves",
+			"default":	false
+		},
+		{
+			"id":		"barroth-helm",
+			"name":		"Barroth Helm",
+			"default":	false
+		},
+		{
+			"id":		"barroth-mail",
+			"name":		"Barroth Mail",
+			"default":	false
+		},
+		{
+			"id":		"barroth-greaves",
+			"name":		"Barroth Greaves",
+			"default":	false
+		},
+		{
+			"id":		"jagras-helm",
+			"name":		"Jagras Helm",
+			"default":	false
+		},
+		{
+			"id":		"jagras-mail",
+			"name":		"Jagras Mail",
+			"default":	false
+		},
+		{
+			"id":		"jagras-greaves",
+			"name":		"Jagras Greaves",
+			"default":	false
+		},
+		{
+			"id":		"jyura-helm",
+			"name":		"Jyura Helm",
+			"default":	false
+		},
+		{
+			"id":		"jyura-mail",
+			"name":		"Jyura Mail",
+			"default":	false
+		},
+		{
+			"id":		"jyura-greaves",
+			"name":		"Jyura Greaves",
+			"default":	false
+		},
+		{
+			"id":		"kadachi-helm",
+			"name":		"Kadachi Helm",
+			"default":	false
+		},
+		{
+			"id":		"kadachi-mail",
+			"name":		"Kadachi Mail",
+			"default":	false
+		},
+		{
+			"id":		"kadachi-greaves",
+			"name":		"Kadachi Greaves",
+			"default":	false
+		},
+		{
+			"id":		"kulu-headpiece",
+			"name":		"Kulu Headpiece",
+			"default":	false
+		},
+		{
+			"id":		"kulu-mail",
+			"name":		"Kulu Mail",
+			"default":	false
+		},
+		{
+			"id":		"kulu-greaves",
+			"name":		"Kulu Greaves",
+			"default":	false
+		},
+		{
+			"id":		"pukei-hood",
+			"name":		"Pukei Hood",
+			"default":	false
+		},
+		{
+			"id":		"pukei-mail",
+			"name":		"Pukei Mail",
+			"default":	false
+		},
+		{
+			"id":		"pukei-greaves",
+			"name":		"Pukei Greaves",
+			"default":	false
+		},
+		{
+			"id":		"diabolos-helm",
+			"name":		"Diabolos Helm",
+			"default":	false
+		},
+		{
+			"id":		"diabolos-mail",
+			"name":		"Diabolos Mail",
+			"default":	false
+		},
+		{
+			"id":		"diabolos-greaves",
+			"name":		"Diabolos Greaves",
+			"default":	false
+		},
+		{
+			"id":		"diabolos-nero-helm",
+			"name":		"Diabolos Nero Helm",
+			"default":	false
+		},
+		{
+			"id":		"diabolos-nero-mail",
+			"name":		"Diabolos Nero Mail",
+			"default":	false
+		},
+		{
+			"id":		"diabolos-nero-greaves",
+			"name":		"Diabolos Nero Greaves",
+			"default":	false
+		},
+		{
+			"id":		"rathalos-helm",
+			"name":		"Rathalos Helm",
+			"default":	false
+		},
+		{
+			"id":		"rathalos-mail",
+			"name":		"Rathalos Mail",
+			"default":	false
+		},
+		{
+			"id":		"rathalos-greaves",
+			"name":		"Rathalos Greaves",
+			"default":	false
+		},
+		{
+			"id":		"rath-soul-helm",
+			"name":		"Rath Soul Helm",
+			"default":	false
+		},
+		{
+			"id":		"rath-soul-mail",
+			"name":		"Rath Soul Mail",
+			"default":	false
+		},
+		{
+			"id":		"rath-soul-greaves",
+			"name":		"Rath Soul Greaves",
+			"default":	false
+		},
+		{
+			"id":		"kushala-glare",
+			"name":		"Kushala Glare",
+			"default":	false
+		},
+		{
+			"id":		"kushala-cista",
+			"name":		"Kushala Cista",
+			"default":	false
+		},
+		{
+			"id":		"kushala-crus",
+			"name":		"Kushala Crus",
+			"default":	false
+		},
+		{
+			"id":		"nergigante-helm",
+			"name":		"Nergigante Helm",
+			"default":	false
+		},
+		{
+			"id":		"nergigante-mail",
+			"name":		"Nergigante Mail",
+			"default":	false
+		},
+		{
+			"id":		"nergigante-greaves",
+			"name":		"Nergigante Greaves",
+			"default":	false
+		},
+		{
+			"id":		"kaiser-crown",
+			"name":		"Kaiser Crown",
+			"default":	false
+		},
+		{
+			"id":		"kaiser-mail",
+			"name":		"Kaiser Mail",
+			"default":	false
+		},
+		{
+			"id":		"kaiser-greaves",
+			"name":		"Kaiser Greaves",
+			"default":	false
+		}
+	]
+}

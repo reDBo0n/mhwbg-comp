@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<title>MHWBG Companion</title>
+		<link rel="canonical" href="https://redbo0n.github.io/mhwbg-comp/">
+		<link rel="stylesheet" href="./css/mhwbg.css">
+		<link rel="manifest" href="./manifest.json">
+	</head>
+	<body>
+		<div class="topnav">
+			<a class="active" href="./index.html">Main</a>
+			<a href="./html/quest.html">Quest</a>
+			<a href="./html/armory.html">Armory</a>
+			<a href="./html/inventory.html">Inventory</a>
+		</div>
+		<div>
+			<h1>Potions</h1>
+			<button type="button" onclick="sub_one('potions')">-</button>
+			<span name="potions" id="potions">2</span>
+			<button type="button" onclick="add_one('potions', 3)">+</button>
+		</div>
+		<div>
+			<h1>Campaign Days</h1>
+			<div id="day-selector">
+				<h2>Please select your campaign length</h2>
+				<button type="button" onclick="sub_one('days')">-</button>
+				<span name="days" id="days">25</span>
+				<button type="button" onclick="add_one('days')">+</button>
+				<button type="button" onclick="start_campaign()">START</button>
+			</div>
+			<div id="selected-days" style="display:none">
+				<h2>You have <span name="days" id=days>25</span> left</h2>
+			</div>
+		</div>
+		<button class="reset" type="button" onclick="reset_data()">RESET</button>
+	</body>
+	<footer>
+		<a href="https://github.com/reDBo0n/mhwbg-comp" target="_blank" rel="noopener noreferrer">GitHub</a>
+	</footer>
+	<script src="./js/common.js"></script>
+	<script src="./js/main.js"></script>
+	<script>
+		if(navigator.serviceWorker) {
+			navigator.serviceWorker.register("/mhwbg-comp/sw.js", {scope: "/mhwbg-comp"});
+		}
+	</script>
+</html>
