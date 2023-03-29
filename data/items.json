@@ -3,242 +3,2115 @@
 		{
 			"id":		"alloy-helm",
 			"name":		"Alloy Helm",
-			"default":	true
+			"default":	true,
+			"tier":		"yellow-helm",
+			"icon":		"white-ore"
 		},
 		{
 			"id":		"alloy-mail",
 			"name":		"Alloy Mail",
-			"default":	true
+			"default":	true,
+			"tier":		"yellow-mail",
+			"icon":		"white-ore"
 		},
 		{
 			"id":		"alloy-greaves",
 			"name":		"Alloy Greaves",
-			"default":	true
+			"default":	true,
+			"tier":		"yellow-greaves",
+			"icon":		"white-ore"
 		},
 		{
 			"id":		"bone-helm",
 			"name":		"Bone Helm",
-			"default":	false
+			"default":	false,
+			"tier":		"yellow-helm",
+			"icon":		"yellow-bone"
 		},
 		{
 			"id":		"bone-mail",
 			"name":		"Bone Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"yellow-mail",
+			"icon":		"yellow-bone"
 		},
 		{
 			"id":		"bone-greaves",
 			"name":		"Bone Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"yellow-greaves",
+			"icon":		"yellow-bone"
 		},
 		{
 			"id":		"anja-helm",
 			"name":		"Anja Helm",
-			"default":	false
+			"default":	false,
+			"tier":		"green-helm",
+			"icon":		"anjanath"
 		},
 		{
 			"id":		"anja-mail",
 			"name":		"Anja Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"green-mail",
+			"icon":		"anjanath"
 		},
 		{
 			"id":		"anja-greaves",
 			"name":		"Anja Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"green-greaves",
+			"icon":		"anjanath"
 		},
 		{
 			"id":		"barroth-helm",
 			"name":		"Barroth Helm",
-			"default":	false
+			"default":	false,
+			"tier":		"green-helm",
+			"icon":		"barroth"
 		},
 		{
 			"id":		"barroth-mail",
 			"name":		"Barroth Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"green-mail",
+			"icon":		"barroth"
 		},
 		{
 			"id":		"barroth-greaves",
 			"name":		"Barroth Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"green-greaves",
+			"icon":		"barroth"
 		},
 		{
 			"id":		"jagras-helm",
 			"name":		"Jagras Helm",
-			"default":	false
+			"default":	false,
+			"tier":		"green-helm",
+			"icon":		"jagras"
 		},
 		{
 			"id":		"jagras-mail",
 			"name":		"Jagras Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"green-mail",
+			"icon":		"jagras"
 		},
 		{
 			"id":		"jagras-greaves",
 			"name":		"Jagras Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"green-greaves",
+			"icon":		"jagras"
 		},
 		{
 			"id":		"jyura-helm",
 			"name":		"Jyura Helm",
-			"default":	false
+			"default":	false,
+			"tier":		"green-helm",
+			"icon":		"jyuratodus"
 		},
 		{
 			"id":		"jyura-mail",
 			"name":		"Jyura Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"green-mail",
+			"icon":		"jyuratodus"
 		},
 		{
 			"id":		"jyura-greaves",
 			"name":		"Jyura Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"green-greaves",
+			"icon":		"jyuratodus"
 		},
 		{
 			"id":		"kadachi-helm",
 			"name":		"Kadachi Helm",
-			"default":	false
+			"default":	false,
+			"tier":		"green-helm",
+			"icon":		"tobi-kadachi"
 		},
 		{
 			"id":		"kadachi-mail",
 			"name":		"Kadachi Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"green-mail",
+			"icon":		"tobi-kadachi"
 		},
 		{
 			"id":		"kadachi-greaves",
 			"name":		"Kadachi Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"green-greaves",
+			"icon":		"tobi-kadachi"
 		},
 		{
 			"id":		"kulu-headpiece",
 			"name":		"Kulu Headpiece",
-			"default":	false
+			"default":	false,
+			"tier":		"green-helm",
+			"icon":		"kulu-ya-ku"
 		},
 		{
 			"id":		"kulu-mail",
 			"name":		"Kulu Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"green-mail",
+			"icon":		"kulu-ya-ku"
 		},
 		{
 			"id":		"kulu-greaves",
 			"name":		"Kulu Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"green-greaves",
+			"icon":		"kulu-ya-ku"
 		},
 		{
 			"id":		"pukei-hood",
 			"name":		"Pukei Hood",
-			"default":	false
+			"default":	false,
+			"tier":		"green-helm",
+			"icon":		"pukei-pukei"
 		},
 		{
 			"id":		"pukei-mail",
 			"name":		"Pukei Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"green-mail",
+			"icon":		"pukei-pukei"
 		},
 		{
 			"id":		"pukei-greaves",
 			"name":		"Pukei Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"green-greaves",
+			"icon":		"pukei-pukei"
 		},
 		{
-			"id":		"diabolos-helm",
-			"name":		"Diabolos Helm",
-			"default":	false
+			"id":		"diablos-helm",
+			"name":		"Diablos Helm",
+			"default":	false,
+			"tier":		"purple-helm",
+			"icon":		"diablos"
 		},
 		{
-			"id":		"diabolos-mail",
-			"name":		"Diabolos Mail",
-			"default":	false
+			"id":		"diablos-mail",
+			"name":		"Diablos Mail",
+			"default":	false,
+			"tier":		"purple-mail",
+			"icon":		"diablos"
 		},
 		{
-			"id":		"diabolos-greaves",
-			"name":		"Diabolos Greaves",
-			"default":	false
+			"id":		"diablos-greaves",
+			"name":		"Diablos Greaves",
+			"default":	false,
+			"tier":		"purple-greaves",
+			"icon":		"diablos"
 		},
 		{
-			"id":		"diabolos-nero-helm",
-			"name":		"Diabolos Nero Helm",
-			"default":	false
+			"id":		"diablos-nero-helm",
+			"name":		"Diablos Nero Helm",
+			"default":	false,
+			"tier":		"purple-helm",
+			"icon":		"black-diablos"
 		},
 		{
-			"id":		"diabolos-nero-mail",
-			"name":		"Diabolos Nero Mail",
-			"default":	false
+			"id":		"diablos-nero-mail",
+			"name":		"Diablos Nero Mail",
+			"default":	false,
+			"tier":		"purple-mail",
+			"icon":		"black-diablos"
 		},
 		{
-			"id":		"diabolos-nero-greaves",
-			"name":		"Diabolos Nero Greaves",
-			"default":	false
+			"id":		"diablos-nero-greaves",
+			"name":		"Diablos Nero Greaves",
+			"default":	false,
+			"tier":		"purple-greaves",
+			"icon":		"black-diablos"
 		},
 		{
 			"id":		"rathalos-helm",
 			"name":		"Rathalos Helm",
-			"default":	false
+			"default":	false,
+			"tier":		"purple-helm",
+			"icon":		"rathalos"
 		},
 		{
 			"id":		"rathalos-mail",
 			"name":		"Rathalos Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"purple-mail",
+			"icon":		"rathalos"
 		},
 		{
 			"id":		"rathalos-greaves",
 			"name":		"Rathalos Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"purple-greaves",
+			"icon":		"rathalos"
 		},
 		{
 			"id":		"rath-soul-helm",
 			"name":		"Rath Soul Helm",
-			"default":	false
+			"default":	false,
+			"tier":		"purple-helm",
+			"icon":		"azure-rathalos"
 		},
 		{
 			"id":		"rath-soul-mail",
 			"name":		"Rath Soul Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"purple-mail",
+			"icon":		"azure-rathalos"
 		},
 		{
 			"id":		"rath-soul-greaves",
 			"name":		"Rath Soul Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"purple-greaves",
+			"icon":		"azure-rathalos"
 		},
 		{
 			"id":		"kushala-glare",
 			"name":		"Kushala Glare",
-			"default":	false
+			"default":	false,
+			"tier":		"orange-helm",
+			"icon":		"kushala-daora"
 		},
 		{
 			"id":		"kushala-cista",
 			"name":		"Kushala Cista",
-			"default":	false
+			"default":	false,
+			"tier":		"orange-mail",
+			"icon":		"kushala-daora"
 		},
 		{
 			"id":		"kushala-crus",
 			"name":		"Kushala Crus",
-			"default":	false
+			"default":	false,
+			"tier":		"orange-greaves",
+			"icon":		"kushala-daora"
 		},
 		{
 			"id":		"nergigante-helm",
 			"name":		"Nergigante Helm",
-			"default":	false
+			"default":	false,
+			"tier":		"orange-helm",
+			"icon":		"nergigante"
 		},
 		{
 			"id":		"nergigante-mail",
 			"name":		"Nergigante Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"orange-mail",
+			"icon":		"nergigante"
 		},
 		{
 			"id":		"nergigante-greaves",
 			"name":		"Nergigante Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"orange-greaves",
+			"icon":		"nergigante"
 		},
 		{
 			"id":		"kaiser-crown",
 			"name":		"Kaiser Crown",
-			"default":	false
+			"default":	false,
+			"tier":		"orange-helm",
+			"icon":		"teostra"
 		},
 		{
 			"id":		"kaiser-mail",
 			"name":		"Kaiser Mail",
-			"default":	false
+			"default":	false,
+			"tier":		"orange-mail",
+			"icon":		"teostra"
 		},
 		{
 			"id":		"kaiser-greaves",
 			"name":		"Kaiser Greaves",
-			"default":	false
+			"default":	false,
+			"tier":		"orange-greaves",
+			"icon":		"teostra"
+		}
+	],
+	"bow": [
+		{
+			"id":		"hunters-bow",
+			"name":		"Hunter's Bow",
+			"default":	true,
+			"tier":		"white-bow",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"hunters-stoutbow",
+			"name":		"Hunter's Stoutbow",
+			"default":	false,
+			"tier":		"yellow-bow",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"steel-bow",
+			"name":		"Steel Bow",
+			"default":	false,
+			"tier":		"yellow-bow",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"alloy-bow",
+			"name":		"Alloy Bow",
+			"default":	false,
+			"tier":		"green-bow",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"blazing-bow",
+			"name":		"Blazing Bow",
+			"default":	false,
+			"tier":		"green-bow",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"blooming-arch",
+			"name":		"Blooming Arch",
+			"default":	false,
+			"tier":		"green-bow",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"diablos-bow",
+			"name":		"Diablos Bow",
+			"default":	false,
+			"tier":		"green-bow",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"hunters-proudbow",
+			"name":		"Hunter's Proudbow",
+			"default":	false,
+			"tier":		"green-bow",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"kulu-arrow",
+			"name":		"Kulu Arrow",
+			"default":	false,
+			"tier":		"green-bow",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"pulsar-bow",
+			"name":		"Pulsar Bow",
+			"default":	false,
+			"tier":		"green-bow",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"anja-arch",
+			"name":		"Anja Arch",
+			"default":	false,
+			"tier":		"purple-bow",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"archers-dance",
+			"name":		"Archer's Dance",
+			"default":	false,
+			"tier":		"purple-bow",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"datura-string",
+			"name":		"Datura String",
+			"default":	false,
+			"tier":		"purple-bow",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"diablos-colibender",
+			"name":		"Diablos Colibender",
+			"default":	false,
+			"tier":		"purple-bow",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"flying-kadachi-strike",
+			"name":		"Flying Kadachi Strike",
+			"default":	false,
+			"tier":		"purple-bow",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"icesteel-bow",
+			"name":		"Icesteel Bow",
+			"default":	false,
+			"tier":		"purple-bow",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"nergal-whisper",
+			"name":		"Nergal Whisper",
+			"default":	false,
+			"tier":		"purple-bow",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"daoras-sagittarii",
+			"name":		"Daora's Sagittarii",
+			"default":	false,
+			"tier":		"orange-bow",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"dooms-shaft",
+			"name":		"Doom's Shaft",
+			"default":	false,
+			"tier":		"orange-bow",
+			"icon":		"nergigante"
+		}
+	],
+	"charge_blade": [
+		{
+			"id":		"bone-strongarm",
+			"name":		"Bone Strongarm",
+			"default":	true,
+			"tier":		"white-charge-blade",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"hard-bone-strongarm",
+			"name":		"Hard Bone Strongarm",
+			"default":	false,
+			"tier":		"yellow-charge-blade",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"elite-commission-axe",
+			"name":		"Elite Commission Axe",
+			"default":	false,
+			"tier":		"yellow-charge-blade",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"chrome-guardian",
+			"name":		"Chrome Guardian",
+			"default":	false,
+			"tier":		"green-charge-blade",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"diablos-wall",
+			"name":		"Diablos Wall",
+			"default":	false,
+			"tier":		"green-charge-blade",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"jagras-strongarm",
+			"name":		"Jagras Strongarm",
+			"default":	false,
+			"tier":		"green-charge-blade",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"mighty-strongarm",
+			"name":		"Mighty Strongarm",
+			"default":	false,
+			"tier":		"green-charge-blade",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"mudslide-blade",
+			"name":		"Mudslide Blade",
+			"default":	false,
+			"tier":		"green-charge-blade",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"pulsar-strongarm",
+			"name":		"Pulsar Strongarm",
+			"default":	false,
+			"tier":		"green-charge-blade",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"daoras-casca",
+			"name":		"Daora's Casca",
+			"default":	false,
+			"tier":		"purple-charge-blade",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"diablos-tyrannis",
+			"name":		"Diablos Tyrannis",
+			"default":	false,
+			"tier":		"purple-charge-blade",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"jagras-escudo",
+			"name":		"Jagras Escudo",
+			"default":	false,
+			"tier":		"purple-charge-blade",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"jyura-depth",
+			"name":		"Jyura Depth",
+			"default":	false,
+			"tier":		"purple-charge-blade",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"kadachi-kaina",
+			"name":		"Kadachi Kaina",
+			"default":	false,
+			"tier":		"purple-charge-blade",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"nergal-lacerator",
+			"name":		"Nergal Lacerator",
+			"default":	false,
+			"tier":		"purple-charge-blade",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"daoras-thwartoise",
+			"name":		"Daora's Thwartoise",
+			"default":	false,
+			"tier":		"orange-charge-blade",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"devistations-thorns",
+			"name":		"Devistation's Thorns",
+			"default":	false,
+			"tier":		"orange-charge-blade",
+			"icon":		"nergigante"
+		}
+	],
+	"dual_blades": [
+		{
+			"id":		"bone-hatchets",
+			"name":		"Bone Hatchets",
+			"default":	true,
+			"tier":		"white-dual-blades",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"dual-slicers",
+			"name":		"Dual Slicers",
+			"default":	false,
+			"tier":		"yellow-dual-blades",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"wild-hatchets",
+			"name":		"Wild Hatchets",
+			"default":	false,
+			"tier":		"yellow-dual-blades",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"blazing-hatchets",
+			"name":		"Blazing Hatchets",
+			"default":	false,
+			"tier":		"green-dual-blades",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"chrome-slicers",
+			"name":		"Chrome Slicers",
+			"default":	false,
+			"tier":		"green-dual-blades",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"diablos-hatchets",
+			"name":		"Diablos Hatchets",
+			"default":	false,
+			"tier":		"green-dual-blades",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"madness-pangas",
+			"name":		"Madness Pangas",
+			"default":	false,
+			"tier":		"green-dual-blades",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"pulsar-hatchets",
+			"name":		"Pulsar Hatchets",
+			"default":	false,
+			"tier":		"green-dual-blades",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"rending-beaks",
+			"name":		"Rending Beaks",
+			"default":	false,
+			"tier":		"green-dual-blades",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"strong-hatchets",
+			"name":		"Strong Hatchets",
+			"default":	false,
+			"tier":		"green-dual-blades",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"anja-cyclone",
+			"name":		"Anja Cyclone",
+			"default":	false,
+			"tier":		"purple-dual-blades",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"arcanaria",
+			"name":		"Arcanaria",
+			"default":	false,
+			"tier":		"purple-dual-blades",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"diablos-clubs",
+			"name":		"Diablos Clubs",
+			"default":	false,
+			"tier":		"purple-dual-blades",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"jyura-hatchets",
+			"name":		"Jyura Hatchets",
+			"default":	false,
+			"tier":		"purple-dual-blades",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"kadachi-claws",
+			"name":		"Kadachi Claws",
+			"default":	false,
+			"tier":		"purple-dual-blades",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"nergal-gouge",
+			"name":		"Nergal Gauge",
+			"default":	false,
+			"tier":		"purple-dual-blades",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"twin-nails",
+			"name":		"Twin Nails",
+			"default":	false,
+			"tier":		"purple-dual-blades",
+			"icon":		"kushala-daora-teostra"
+		},
+		{
+			"id":		"decimation-claws",
+			"name":		"Decimation Claws",
+			"default":	false,
+			"tier":		"orange-dual-blades",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"fire-and-ice",
+			"name":		"Fire and Ice",
+			"default":	false,
+			"tier":		"orange-dual-blades",
+			"icon":		"kushala-daora-teostra"
+		}
+	],
+	"great_sword": [
+		{
+			"id":		"bone-blade",
+			"name":		"Bone Blade",
+			"default":	true,
+			"tier":		"white-great-sword",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"bone-slasher",
+			"name":		"Bone Slasher",
+			"default":	false,
+			"tier":		"yellow-great-sword",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"buster-blade",
+			"name":		"Buster Blade",
+			"default":	false,
+			"tier":		"yellow-great-sword",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"blooming-blade",
+			"name":		"Blooming Blade",
+			"default":	false,
+			"tier":		"green-great-sword",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"carapace-buster",
+			"name":		"Carapace Buster",
+			"default":	false,
+			"tier":		"green-great-sword",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"chrome-razor",
+			"name":		"Chrome Razor",
+			"default":	false,
+			"tier":		"green-great-sword",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"flame-blade",
+			"name":		"Flame Blade",
+			"default":	false,
+			"tier":		"green-great-sword",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"giant-jawblade",
+			"name":		"Giant Jawblade",
+			"default":	false,
+			"tier":		"green-great-sword",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"jagras-blade",
+			"name":		"Jagras Blade",
+			"default":	false,
+			"tier":		"green-great-sword",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"barroth-shredder",
+			"name":		"Barroth Shredder",
+			"default":	false,
+			"tier":		"purple-great-sword",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"datura-blade",
+			"name":		"Datura Blade",
+			"default":	false,
+			"tier":		"purple-great-sword",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"icesteel-edge",
+			"name":		"Icesteel Edge",
+			"default":	false,
+			"tier":		"purple-great-sword",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"jagras-hacker",
+			"name":		"Jagras Hacker",
+			"default":	false,
+			"tier":		"purple-great-sword",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"nergal-judicator",
+			"name":		"Nergal Judicator",
+			"default":	false,
+			"tier":		"purple-great-sword",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"red-wing",
+			"name":		"Red Wing",
+			"default":	false,
+			"tier":		"purple-great-sword",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"daoras-decimator",
+			"name":		"Daora's Decimator",
+			"default":	false,
+			"tier":		"orange-great-sword",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"pergations-atrocity",
+			"name":		"Pergation's Atrocity",
+			"default":	false,
+			"tier":		"orange-great-sword",
+			"icon":		"nergigante"
+		}
+	],
+	"gunlance": [
+		{
+			"id":		"bone-gunlance",
+			"name":		"Bone Gunlance",
+			"default":	false,
+			"tier":		"white-gunlance",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"bone-cannon",
+			"name":		"Bone Cannon",
+			"default":	false,
+			"tier":		"yellow-gunlance",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"steel-gunlance",
+			"name":		"Steel Gunlance",
+			"default":	false,
+			"tier":		"yellow-gunlance",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"carapace-cannon",
+			"name":		"Carapace Cannon",
+			"default":	false,
+			"tier":		"green-gunlance",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"chrome-gunlance",
+			"name":		"Chrome Gunlance",
+			"default":	false,
+			"tier":		"green-gunlance",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"great-bone-gunlance",
+			"name":		"Great Bone Gunlance",
+			"default":	false,
+			"tier":		"green-gunlance",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"jagras-gunlance",
+			"name":		"Jagras Gunlance",
+			"default":	false,
+			"tier":		"green-gunlance",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"madness-gunlance",
+			"name":		"Madness Gunlance",
+			"default":	false,
+			"tier":		"green-gunlance",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"rath-gunlance",
+			"name":		"Rath Gunlance",
+			"default":	false,
+			"tier":		"green-gunlance",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"barroth-blaster",
+			"name":		"Barroth Blaster",
+			"default":	false,
+			"tier":		"purple-gunlance",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"glutton-gunlance",
+			"name":		"Glutton Gunlance",
+			"default":	false,
+			"tier":		"purple-gunlance",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"icesteel-gunlance",
+			"name":		"Icesteel Gunlance",
+			"default":	false,
+			"tier":		"purple-gunlance",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"jyura-buster",
+			"name":		"Jyura Buster",
+			"default":	false,
+			"tier":		"purple-gunlance",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"nergal-ram",
+			"name":		"Nergal Ram",
+			"default":	false,
+			"tier":		"purple-gunlance",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"red-rook",
+			"name":		"Red Rook",
+			"default":	false,
+			"tier":		"purple-gunlance",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"daoras-brigia",
+			"name":		"Daora's Brigia",
+			"default":	false,
+			"tier":		"orange-gunlance",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"eradication-flame",
+			"name":		"Eradication Flame",
+			"default":	false,
+			"tier":		"orange-gunlance",
+			"icon":		"nergigante"
+		}
+	],
+	"hammer": [
+		{
+			"id":		"bone-bludgeon",
+			"name":		"Bone Bludgeon",
+			"default":	false,
+			"tier":		"white-hammer",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"fossil-bludgeon",
+			"name":		"Fossil Bludgeon",
+			"default":	false,
+			"tier":		"yellow-hammer",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"iron-demon",
+			"name":		"Iron Demon",
+			"default":	false,
+			"tier":		"yellow-hammer",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"blazing-hammer",
+			"name":		"Blazing Hammer",
+			"default":	false,
+			"tier":		"green-hammer",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"blooming-hammer",
+			"name":		"Blooming Hammer",
+			"default":	false,
+			"tier":		"green-hammer",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"carapace-sledge",
+			"name":		"Carapace Sledge",
+			"default":	false,
+			"tier":		"green-hammer",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"diablos-sledge",
+			"name":		"Diablos Sledge",
+			"default":	false,
+			"tier":		"green-hammer",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"grand-rock",
+			"name":		"Grand Rock",
+			"default":	false,
+			"tier":		"green-hammer",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"iron-arch-demon",
+			"name":		"Iron Arch Demon",
+			"default":	false,
+			"tier":		"green-hammer",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"kulu-beak",
+			"name":		"Kulu Beak",
+			"default":	false,
+			"tier":		"green-hammer",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"anja-striker",
+			"name":		"Anja Striker",
+			"default":	false,
+			"tier":		"purple-hammer",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"barroth-breaker",
+			"name":		"Barroth Breaker",
+			"default":	false,
+			"tier":		"purple-hammer",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"buon-fiore",
+			"name":		"Buon Fiore",
+			"default":	false,
+			"tier":		"purple-hammer",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"crushing-beak",
+			"name":		"Crushing Beak",
+			"default":	false,
+			"tier":		"purple-hammer",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"diablos-shatterer",
+			"name":		"Diablos Shatterer",
+			"default":	false,
+			"tier":		"purple-hammer",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"icesteel-hammer",
+			"name":		"Icesteel Hammer",
+			"default":	false,
+			"tier":		"purple-hammer",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"nergal-crusher",
+			"name":		"Nergal Crusher",
+			"default":	false,
+			"tier":		"purple-hammer",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"daoras-colossus",
+			"name":		"Daora's Colossus",
+			"default":	false,
+			"tier":		"orange-hammer",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"obliterations-footfall",
+			"name":		"Obliteration's Footfall",
+			"default":	false,
+			"tier":		"orange-hammer",
+			"icon":		"nergigante"
+		}
+	],
+	"heavy_bowgun": [
+		{
+			"id":		"bone-shooter",
+			"name":		"Bone Shooter",
+			"default":	true,
+			"tier":		"white-heavy-bowgun",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"heavy-shooter",
+			"name":		"Heavy Shooter",
+			"default":	false,
+			"tier":		"yellow-heavy-bowgun",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"steel-assault",
+			"name":		"Steel Assault",
+			"default":	false,
+			"tier":		"yellow-heavy-bowgun",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"blooming-shooter",
+			"name":		"Blooming Shooter",
+			"default":	false,
+			"tier":		"green-heavy-bowgun",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"chrome-assault",
+			"name":		"Chrome Assault",
+			"default":	false,
+			"tier":		"green-heavy-bowgun",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"diablos-shooter",
+			"name":		"Diablos Shooter",
+			"default":	false,
+			"tier":		"green-heavy-bowgun",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"jagras-assault",
+			"name":		"Jagras Assault",
+			"default":	false,
+			"tier":		"green-heavy-bowgun",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"power-shooter",
+			"name":		"Power Shooter",
+			"default":	false,
+			"tier":		"green-heavy-bowgun",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"pulsar-shooter",
+			"name":		"Pulsar Shooter",
+			"default":	false,
+			"tier":		"green-heavy-bowgun",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"datura-blaster",
+			"name":		"Datura Blaster",
+			"default":	false,
+			"tier":		"purple-heavy-bowgun",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"dual-threat",
+			"name":		"Dual Threat",
+			"default":	false,
+			"tier":		"purple-heavy-bowgun",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"jagras-cannon",
+			"name":		"Jagras Cannon",
+			"default":	false,
+			"tier":		"purple-heavy-bowgun",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"kadachi-lion",
+			"name":		"Kadachi Lion",
+			"default":	false,
+			"tier":		"purple-heavy-bowgun",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"nergal-roar",
+			"name":		"Nergal Roar",
+			"default":	false,
+			"tier":		"purple-heavy-bowgun",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"teostras-artillery",
+			"name":		"Teostra's Artillery",
+			"default":	false,
+			"tier":		"purple-heavy-bowgun",
+			"icon":		"teostra"
+		},
+		{
+			"id":		"destructions-fusillade",
+			"name":		"Destruction's Fussillade",
+			"default":	false,
+			"tier":		"orange-heavy-bowgun",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"teostras-flames",
+			"name":		"Teostra's Flames",
+			"default":	false,
+			"tier":		"orange-heavy-bowgun",
+			"icon":		"teostra"
+		}
+	],
+	"hunting_horn": [
+		{
+			"id":		"bone-horn",
+			"name":		"Bone Horn",
+			"default":	false,
+			"tier":		"white-hunting-horn",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"great-bagpipe",
+			"name":		"Great Bagpipe",
+			"default":	false,
+			"tier":		"yellow-hunting-horn",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"hard-bone-horn",
+			"name":		"Hard Bone Horn",
+			"default":	false,
+			"tier":		"yellow-hunting-horn",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"aqua-bagpipe",
+			"name":		"Aqua Bagpipe",
+			"default":	false,
+			"tier":		"green-hunting-horn",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"blazing-horn",
+			"name":		"Blazing Horn",
+			"default":	false,
+			"tier":		"green-hunting-horn",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"blooming-horn",
+			"name":		"Blooming Horn",
+			"default":	false,
+			"tier":		"green-hunting-horn",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"fortissimo",
+			"name":		"Fortissimo",
+			"default":	false,
+			"tier":		"green-hunting-horn",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"heavy-bone-horn",
+			"name":		"Heavy Bone Horn",
+			"default":	false,
+			"tier":		"green-hunting-horn",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"thunder-gaida",
+			"name":		"Thunder Gaida",
+			"default":	false,
+			"tier":		"green-hunting-horn",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"anja-barone",
+			"name":		"Anja Barone",
+			"default":	false,
+			"tier":		"purple-hunting-horn",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"datura-horn",
+			"name":		"Datura Horn",
+			"default":	false,
+			"tier":		"purple-hunting-horn",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"lightning-drum",
+			"name":		"Lightning Drum",
+			"default":	false,
+			"tier":		"purple-hunting-horn",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"water-tamtam",
+			"name":		"Water Tamtam",
+			"default":	false,
+			"tier":		"purple-hunting-horn",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"nergal-groove",
+			"name":		"Nergal Groove",
+			"default":	false,
+			"tier":		"purple-hunting-horn",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"teostras-tiple",
+			"name":		"Teostra's Tiple",
+			"default":	false,
+			"tier":		"purple-hunting-horn",
+			"icon":		"teostra"
+		},
+		{
+			"id":		"desolations-overture",
+			"name":		"Desolation's Overture",
+			"default":	false,
+			"tier":		"orange-hunting-horn",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"teostras-orphee",
+			"name":		"Teostra's Orphée",
+			"default":	false,
+			"tier":		"orange-hunting-horn",
+			"icon":		"teostra"
+		}
+	],
+	"insect_glaive": [
+		{
+			"id":		"bone-rod",
+			"name":		"Bone Rod",
+			"default":	true,
+			"tier":		"white-insect-glaive",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"hard-bone-rod",
+			"name":		"Hard Bone Rod",
+			"default":	false,
+			"tier":		"yellow-insect-glaive",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"steel-blade",
+			"name":		"Steel Blade",
+			"default":	false,
+			"tier":		"yellow-insect-glaive",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"aerial-magus",
+			"name":		"Aerial Magus",
+			"default":	false,
+			"tier":		"green-insect-glaive",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"blooming-glaive",
+			"name":		"Blooming Glaive",
+			"default":	false,
+			"tier":		"green-insect-glaive",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"chrome-blade",
+			"name":		"Chrome Blade",
+			"default":	false,
+			"tier":		"green-insect-glaive",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"diablos-rod",
+			"name":		"Diablos Rod",
+			"default":	false,
+			"tier":		"green-insect-glaive",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"flame-glaive",
+			"name":		"Flame Glaive",
+			"default":	false,
+			"tier":		"green-insect-glaive",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"flammenkafer",
+			"name":		"Flammenkäfer",
+			"default":	false,
+			"tier":		"green-insect-glaive",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"kulu-blade",
+			"name":		"Kulu Blade",
+			"default":	false,
+			"tier":		"green-insect-glaive",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"daoras-entom",
+			"name":		"Daora's Entom",
+			"default":	false,
+			"tier":		"purple-insect-glaive",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"datura-blade",
+			"name":		"Datura Blade",
+			"default":	false,
+			"tier":		"purple-insect-glaive",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"gnashing-flammenkaefer",
+			"name":		"Gnashing Flammenkäfer",
+			"default":	false,
+			"tier":		"purple-insect-glaive",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"nergal-reaper",
+			"name":		"Nergal Reaper",
+			"default":	false,
+			"tier":		"purple-insect-glaive",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"rathmaul",
+			"name":		"Rathmaul",
+			"default":	false,
+			"tier":		"purple-insect-glaive",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"tyrannis-glaive",
+			"name":		"Tyrannis Galive",
+			"default":	false,
+			"tier":		"purple-insect-glaive",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"ya-ku-wrath",
+			"name":		"Ya-Ku Wrath",
+			"default":	false,
+			"tier":		"purple-insect-glaive",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"catastrophes-light",
+			"name":		"Catastrophe's Light",
+			"default":	false,
+			"tier":		"orange-insect-glaive",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"daoras-tethidine",
+			"name":		"Daora's Tethidine",
+			"default":	false,
+			"tier":		"orange-insect-glaive",
+			"icon":		"kushala-daora"
+		}
+	],
+	"lance": [
+		{
+			"id":		"bone-lance",
+			"name":		"Bone Lance",
+			"default":	true,
+			"tier":		"white-lance",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"hard-bone-lance",
+			"name":		"Hard Bone Lance",
+			"default":	false,
+			"tier":		"yellow-lance",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"steel-lance",
+			"name":		"Steel Lance",
+			"default":	false,
+			"tier":		"yellow-lance",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"aqua-horn",
+			"name":		"Aqua Horn",
+			"default":	false,
+			"tier":		"green-lance",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"carapace-lance",
+			"name":		"Carapace Lance",
+			"default":	false,
+			"tier":		"green-lance",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"chrome-lance",
+			"name":		"Chrome Lance",
+			"default":	false,
+			"tier":		"green-lance",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"flame-lance",
+			"name":		"Flame Lance",
+			"default":	false,
+			"tier":		"green-lance",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"heavy-bone-lance",
+			"name":		"Heavy Bone Lance",
+			"default":	false,
+			"tier":		"green-lance",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"kulu-duda",
+			"name":		"Kulu Duda",
+			"default":	false,
+			"tier":		"green-lance",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"thunder-lance",
+			"name":		"Thunder Lance",
+			"default":	false,
+			"tier":		"green-lance",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"barroth-stinger",
+			"name":		"Barroth Stinger",
+			"default":	false,
+			"tier":		"purple-lance",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"dancing-duval",
+			"name":		"Dancing Duval",
+			"default":	false,
+			"tier":		"purple-lance",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"icesteel-spear",
+			"name":		"Icesteel Spear",
+			"default":	false,
+			"tier":		"purple-lance",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"lightning-spire",
+			"name":		"Lightning Spire",
+			"default":	false,
+			"tier":		"purple-lance",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"nergal-impaler",
+			"name":		"Nergal Impaler",
+			"default":	false,
+			"tier":		"purple-lance",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"red-tail",
+			"name":		"Red Tail",
+			"default":	false,
+			"tier":		"purple-lance",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"water-spike",
+			"name":		"Water Spike",
+			"default":	false,
+			"tier":		"purple-lance",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"daoras-fang",
+			"name":		"Daora's Fang",
+			"default":	false,
+			"tier":		"orange-lance",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"perditions-hand",
+			"name":		"Perdition's Hand",
+			"default":	false,
+			"tier":		"orange-lance",
+			"icon":		"nergigante"
+		}
+	],
+	"light_bowgun": [
+		{
+			"id":		"hunters-rifle",
+			"name":		"Hunter's Rifle",
+			"default":	true,
+			"tier":		"white-light-bowgun",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"high-chain-blitz",
+			"name":		"High Chain Blitz",
+			"default":	false,
+			"tier":		"yellow-light-bowgun",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"power-rifle",
+			"name":		"Power Rifle",
+			"default":	false,
+			"tier":		"yellow-light-bowgun",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"carapace-rifle",
+			"name":		"Carapace Rifle",
+			"default":	false,
+			"tier":		"green-light-bowgun",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"cross-blitz",
+			"name":		"Cross Blitz",
+			"default":	false,
+			"tier":		"green-light-bowgun",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"flame-blitz",
+			"name":		"Flame Blitz",
+			"default":	false,
+			"tier":		"green-light-bowgun",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"jagras-blitz",
+			"name":		"Jagras Blitz",
+			"default":	false,
+			"tier":		"green-light-bowgun",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"madness-rifle",
+			"name":		"Madness Rifle",
+			"default":	false,
+			"tier":		"green-light-bowgun",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"sniper-shot",
+			"name":		"Sniper Shot",
+			"default":	false,
+			"tier":		"green-light-bowgun",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"barroth-shot",
+			"name":		"Barroth Shot",
+			"default":	false,
+			"tier":		"purple-light-bowgun",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"icesteel-wasp",
+			"name":		"Icesteel Wasp",
+			"default":	false,
+			"tier":		"purple-light-bowgun",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"jagras-fire",
+			"name":		"Jagras Fire",
+			"default":	false,
+			"tier":		"purple-light-bowgun",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"jyura-bullet",
+			"name":		"Jyura Bullet",
+			"default":	false,
+			"tier":		"purple-light-bowgun",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"nergal-splitter",
+			"name":		"Nergal Splitter",
+			"default":	false,
+			"tier":		"purple-light-bowgun",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"rathbuster",
+			"name":		"Rathbuster",
+			"default":	false,
+			"tier":		"purple-light-bowgun",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"cataclysms-trigger",
+			"name":		"Cataclysm's Trigger",
+			"default":	false,
+			"tier":		"orange-light-bowgun",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"daoras-hornet",
+			"name":		"Daora's Hornet",
+			"default":	false,
+			"tier":		"orange-light-bowgun",
+			"icon":		"kushala-daora"
+		}
+	],
+	"long_sword": [
+		{
+			"id":		"bone-shotel",
+			"name":		"Bone Shotel",
+			"default":	true,
+			"tier":		"white-long-sword",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"hard-bone-shotel",
+			"name":		"Hard Bone Shotel",
+			"default":	false,
+			"tier":		"yellow-long-sword",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"iron-grace",
+			"name":		"Iron Grace",
+			"default":	false,
+			"tier":		"yellow-long-sword",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"blazing-shotel",
+			"name":		"Blazing Shotel",
+			"default":	false,
+			"tier":		"green-long-sword",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"bone-reaper",
+			"name":		"Bone Reaper",
+			"default":	false,
+			"tier":		"green-long-sword",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"first-dance",
+			"name":		"First Dance",
+			"default":	false,
+			"tier":		"green-long-sword",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"iron-gospel",
+			"name":		"Iron Gospel",
+			"default":	false,
+			"tier":		"green-long-sword",
+			"icon":		"white-ore"
+		},{
+			"id":		"jyura-shotel",
+			"name":		"Jyura Shotel",
+			"default":	false,
+			"tier":		"green-long-sword",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"pulsar-shotel",
+			"name":		"Pulsar Shotel",
+			"default":	false,
+			"tier":		"green-long-sword",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"wyvern-blade-fall",
+			"name":		"Wyvern Blade \"Fall\"",
+			"default":	false,
+			"tier":		"green-long-sword",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"anja-scimitar",
+			"name":		"Anja Scimitar",
+			"default":	false,
+			"tier":		"purple-long-sword",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"dipterus",
+			"name":		"Dipterus",
+			"default":	false,
+			"tier":		"purple-long-sword",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"imperial-saber",
+			"name":		"Imperial Saber",
+			"default":	false,
+			"tier":		"purple-long-sword",
+			"icon":		"teostra"
+		},
+		{
+			"id":		"kadachi-fang",
+			"name":		"Kadachi Fang",
+			"default":	false,
+			"tier":		"purple-long-sword",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"last-dance",
+			"name":		"Last Dance",
+			"default":	false,
+			"tier":		"purple-long-sword",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"nergal-reaver",
+			"name":		"Nergal Reaver",
+			"default":	false,
+			"tier":		"purple-long-sword",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"wyvern-blade-blood",
+			"name":		"Wyvern Blade \"Blood\"",
+			"default":	false,
+			"tier":		"purple-long-sword",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"exterminations-edge",
+			"name":		"Extermination's Edge",
+			"default":	false,
+			"tier":		"orange-long-sword",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"imperial-shimmer",
+			"name":		"Imperial Shimmer",
+			"default":	false,
+			"tier":		"orange-long-sword",
+			"icon":		"teostra"
+		}
+	],
+	"switch_axe": [
+		{
+			"id":		"bone-axe",
+			"name":		"Bone Axe",
+			"default":	true,
+			"tier":		"white-switch-axe",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"bone-smasher",
+			"name":		"Bone Smasher",
+			"default":	false,
+			"tier":		"yellow-switch-axe",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"improved-steel-axe",
+			"name":		"Improved Steel Axe",
+			"default":	false,
+			"tier":		"yellow-switch-axe",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"carapace-axe",
+			"name":		"Carapace Axe",
+			"default":	false,
+			"tier":		"green-switch-axe",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"diablos-axe",
+			"name":		"Diablos Axe",
+			"default":	false,
+			"tier":		"green-switch-axe",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"flammenbeil",
+			"name":		"Flammenbeil",
+			"default":	false,
+			"tier":		"green-switch-axe",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"perfected-alloy-axe",
+			"name":		"Perfected Allow Axe",
+			"default":	false,
+			"tier":		"green-switch-axe",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"power-smasher",
+			"name":		"Power Smasher",
+			"default":	false,
+			"tier":		"green-switch-axe",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"rathalos-axe",
+			"name":		"Rathalos Axe",
+			"default":	false,
+			"tier":		"green-switch-axe",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"axe-semper-tyrannis",
+			"name":		"Axe Semper Tyrannis",
+			"default":	false,
+			"tier":		"purple-switch-axe",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"barroth-grinder",
+			"name":		"Barroth Grinder",
+			"default":	false,
+			"tier":		"purple-switch-axe",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"gnashing-flammenbeil",
+			"name":		"Gnashing Flammenbeil",
+			"default":	false,
+			"tier":		"purple-switch-axe",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"nergal-gash",
+			"name":		"Nergal Gash",
+			"default":	false,
+			"tier":		"purple-switch-axe",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"rathbringer-axe",
+			"name":		"Rathbringer Axe",
+			"default":	false,
+			"tier":		"purple-switch-axe",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"teostras-arx",
+			"name":		"Teostra's Arx",
+			"default":	false,
+			"tier":		"purple-switch-axe",
+			"icon":		"teostra"
+		},
+		{
+			"id":		"dying-light",
+			"name":		"Dying Light",
+			"default":	false,
+			"tier":		"orange-switch-axe",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"teostras-castle",
+			"name":		"Teostra's Castle",
+			"default":	false,
+			"tier":		"orange-switch-axe",
+			"icon":		"teostra"
+		}
+	],
+	"sword_shield": [
+		{
+			"id":		"bone-kukri",
+			"name":		"Bone Kukri",
+			"default":	true,
+			"tier":		"white-sword-shield",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"chief-kukri",
+			"name":		"Chief Kukri",
+			"default":	false,
+			"tier":		"yellow-sword-shield",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"steel-knife",
+			"name":		"Steel Knife",
+			"default":	false,
+			"tier":		"yellow-sword-shield",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"blooming-knife",
+			"name":		"Blooming Knife",
+			"default":	false,
+			"tier":		"green-sword-shield",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"carapace-edge",
+			"name":		"Carapace Edge",
+			"default":	false,
+			"tier":		"green-sword-shield",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"chrome-slicer",
+			"name":		"Chrome Slicer",
+			"default":	false,
+			"tier":		"green-sword-shield",
+			"icon":		"white-ore"
+		},
+		{
+			"id":		"flame-knife",
+			"name":		"Flame Knife",
+			"default":	false,
+			"tier":		"green-sword-shield",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"grand-barong",
+			"name":		"Grand Barong",
+			"default":	false,
+			"tier":		"green-sword-shield",
+			"icon":		"yellow-bone"
+		},
+		{
+			"id":		"jagras-edge",
+			"name":		"Jagras Edge",
+			"default":	false,
+			"tier":		"green-sword-shield",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"barroth-club",
+			"name":		"Barroth Club",
+			"default":	false,
+			"tier":		"purple-sword-shield",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"datura-blossom",
+			"name":		"Datura Blossom",
+			"default":	false,
+			"tier":		"purple-sword-shield",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"heat-edge",
+			"name":		"Heat Edge",
+			"default":	false,
+			"tier":		"purple-sword-shield",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"jagras-garrotte",
+			"name":		"Jagras Garrotte",
+			"default":	false,
+			"tier":		"purple-sword-shield",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"nergal-jack",
+			"name":		"Nergal Jack",
+			"default":	false,
+			"tier":		"purple-sword-shield",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"teostras-spada",
+			"name":		"Teostra's Spada",
+			"default":	false,
+			"tier":		"purple-sword-shield",
+			"icon":		"teostra"
+		},
+		{
+			"id":		"eradication-vanguard",
+			"name":		"Eradication Vanguard",
+			"default":	false,
+			"tier":		"orange-sword-shield",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"teostras-emblem",
+			"name":		"Teostra's Emblem",
+			"default":	false,
+			"tier":		"orange-sword-shield",
+			"icon":		"teostra"
 		}
 	]
 }

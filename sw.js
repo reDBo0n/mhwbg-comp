@@ -1,5 +1,5 @@
 const APP_PREFIX = "MHWBG-Comp"
-const VERSION = "proto_01"
+const VERSION = "proto_02"
 const CACHE_NAME = APP_PREFIX + VERSION
 const URLS = [
 	"/mhwbg-comp/",
@@ -11,7 +11,8 @@ const URLS = [
 	"/mhwbg-comp/html/quest.html",
 	"/mhwbg-comp/js/armory.js",
 	"/mhwbg-comp/js/common.js",
-	"/mhwbg-comp/js/main.js"
+	"/mhwbg-comp/js/main.js",
+	"/mhwbg-comp/js/quest.js"
 ]
 
 self.addEventListener("fetch", (e) => {

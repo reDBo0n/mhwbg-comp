@@ -2,6 +2,7 @@
 <html lang="en-US" dir="ltr">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initiali-scale=1.0, maximum-scale=1.0, user-scalable=0">
 		<title>MHWBG Companion</title>
 		<link rel="stylesheet" href="../css/mhwbg.css">
 	</head>
@@ -12,52 +13,63 @@
 			<a class="active" href="./armory.html">Armory</a>
 			<a href="./inventory.html">Inventory</a>
 		</div>
-		<h1>Armor</h1>
-		<div class="list" id="armor">
+		<button type="button" onclick="toggle_me('armor')">Armor</button>
+		<div class="list" id="armor" style="display:none">
 		</div>
-		<div class="list" id="bow">
+		<button type="button" onclick="toggle_me('bow')">Bow</button>
+		<div class="list" id="bow" style="display:none">
 
 		</div>
-		<div class="list" id="charge-blade">
+		<button type="button" onclick="toggle_me('charge-blade')">Charge Blade</button>
+		<div class="list" id="charge-blade" style="display:none">
 
 		</div>
-		<div class="list" id="dual-blades">
+		<button type="button" onclick="toggle_me('dual-blades')">Dual Blades</button>
+		<div class="list" id="dual-blades" style="display:none">
 
 		</div>
-		<div class="list" id="great-sword">
+		<button type="button" onclick="toggle_me('great-sword')">Great Sword</button>
+		<div class="list" id="great-sword" style="display:none">
 
 		</div>
-		<div class="list" id="gunlance">
+		<button type="button" onclick="toggle_me('gunlance')">Gunlance</button>
+		<div class="list" id="gunlance" style="display:none">
 
 		</div>
-		<div class="list" id="gunlance">
+		<button type="button" onclick="toggle_me('hammer')">Hammer</button>
+		<div class="list" id="hammer" style="display:none">
 
 		</div>
-		<div class="list" id="hammer">
+		<button type="button" onclick="toggle_me('heavy-bowgun')">Heavy Bowgun</button>
+		<div class="list" id="heavy-bowgun" style="display:none">
 
 		</div>
-		<div class="list" id="heavy-bowgun">
+		<button type="button" onclick="toggle_me('hunting-horn')">Hunting Horn</button>
+		<div class="list" id="hunting-horn" style="display:none">
 
 		</div>
-		<div class="list" id="hunting-horn">
+		<button type="button" onclick="toggle_me('insect-glaive')">Insect Glaive</button>
+		<div class="list" id="insect-glaive" style="display:none">
 
 		</div>
-		<div class="list" id="insect-glaive">
+		<button type="button" onclick="toggle_me('lance')">Lance</button>
+		<div class="list" id="lance" style="display:none">
 
 		</div>
-		<div class="list" id="lance">
+		<button type="button" onclick="toggle_me('light-bowgun')">Light Bowgun</button>
+		<div class="list" id="light-bowgun" style="display:none">
 
 		</div>
-		<div class="list" id="light-bowgun">
+		<button type="button" onclick="toggle_me('long-sword')">Long Sword</button>
+		<div class="list" id="long-sword" style="display:none">
 
 		</div>
-		<div class="list" id="long-sword">
+		<button type="button" onclick="toggle_me('switch-axe')">Switch Axe</button>
+		<div class="list" id="switch-axe" style="display:none">
 
 		</div>
-		<div class="list" id="switch-axe">
-
-		</div>
-		<div class="list" id="sword-shield">
+		<button type="button" onclick="toggle_me('sword-shield')">Sword & Shield</button>
+		<div class="list" id="sword-shield" style="display:none">
 
 		</div>
 		<button class="reset" type="button" onclick="reset_data()">RESET</button>
