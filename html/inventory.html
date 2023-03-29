@@ -13,13 +13,16 @@
 			<a href="./armory.html">Armory</a>
 			<a class="active" href="./inventory.html">Inventory</a>
 		</div>
-		<div id="commons">
+		<button type="button" onclick="toggle_me('commons')">Common Bones/Ores/Hides</button>
+		<div class="list" id="commons" style="display:none">
 
 		</div>
-		<div id="others">
+		<button type="button" onclick="toggle_me('others')">Other Resources</button>
+		<div class="list" id="others" style="display:none">
 
 		</div>
-		<div id="monsters">
+		<button type="button" onclick="toggle_me('monsters')">Monster-specific Parts</button>
+		<div class="list" id="monsters" style="display:none">
 			
 		</div>
 		<button class="reset" type="button" onclick="reset_data()">RESET</button>
@@ -27,5 +30,6 @@
 	<footer>
 		<a href="https://github.com/reDBo0n/mhwbg-comp" target="_blank" rel="noopener noreferrer">GitHub</a>
 	</footer>
+	<script src="../js/inventory.js"></script>
 	<script src="../js/common.js"></script>
 </html>

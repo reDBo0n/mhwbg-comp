@@ -1,5 +1,5 @@
 const APP_PREFIX = "MHWBG-Comp"
-const VERSION = "proto_02"
+const VERSION = "proto_03"
 const CACHE_NAME = APP_PREFIX + VERSION
 const URLS = [
 	"/mhwbg-comp/",
@@ -11,6 +11,7 @@ const URLS = [
 	"/mhwbg-comp/html/quest.html",
 	"/mhwbg-comp/js/armory.js",
 	"/mhwbg-comp/js/common.js",
+	"/mhwbg-comp/js/inventory.js",
 	"/mhwbg-comp/js/main.js",
 	"/mhwbg-comp/js/quest.js"
 ]

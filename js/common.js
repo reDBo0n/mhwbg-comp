@@ -44,4 +44,14 @@ function reset_data() {
 	}
 }
 
+function toggle_me(form_name) {
+	const form = document.getElementById(form_name);
+
+	if(form.style.display === "none") {
+		form.style.display = "inline-flex";
+	}else{
+		form.style.display = "none";
+	}
+}
+
 load_data();

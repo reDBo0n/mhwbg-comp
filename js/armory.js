@@ -42,7 +42,6 @@ function save_box(field_id) {
 }
 
 function create_list(data, div) {
-	if(data === null) return;
 	data.forEach((item) => {
 		const label = document.createElement("label");
 		label.setAttribute("for", item.id);
@@ -61,12 +60,12 @@ function create_list(data, div) {
 		checkbox.setAttribute("onclick", `save_box('${item.id}')`);
 
 		const tier = document.createElement("img");
-		tier.src = "../data/icons/" + item.tier + ".png"
+		tier.src = "../data/icons/" + item.tier + ".png";
 		tier.width = 20;
 		tier.height = 20;
 
 		const icon = document.createElement("img");
-		icon.src = "../data/icons/" + item.icon + ".png"
+		icon.src = "../data/icons/" + item.icon + ".png";
 		icon.width = 20;
 		icon.height = 20;
 
@@ -74,10 +73,10 @@ function create_list(data, div) {
 		label.appendChild(tier);
 
 		if(item.icon === "kushala-daora-teostra") {
-			icon.src = "../data/icons/teostra.png"
+			icon.src = "../data/icons/teostra.png";
 
 			const icon2 = document.createElement("img");
-			icon2.src = "../data/icons/kushala-daora.png"
+			icon2.src = "../data/icons/kushala-daora.png";
 			icon2.width = 20;
 			icon2.height = 20;
 
@@ -88,16 +87,6 @@ function create_list(data, div) {
 		label.appendChild(document.createTextNode(item.name));
 		div.appendChild(label);
 	});
-}
-
-function toggle_me(form_name) {
-	const form = document.getElementById(form_name);
-
-	if(form.style.display === "none") {
-		form.style.display = "inline-flex";
-	}else{
-		form.style.display = "none";
-	}
 }
 
 fill_armory();
