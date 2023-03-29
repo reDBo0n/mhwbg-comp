@@ -26,8 +26,13 @@ function create_list(data, div) {
 		const text = document.createElement("span");
 		text.setAttribute("name", item.id);
 		text.setAttribute("id", item.id);
-		text.innerText = "0";
-
+		content = localStorage.getItem(item.id);
+		if(content === null) {
+			text.innerText = "0";
+		}else{
+			text.innerText = content;
+		}
+		
 		const add_button = document.createElement("button");
 		add_button.setAttribute("onclick", `add_one('${item.id}')`);
 		add_button.innerText = "+";
