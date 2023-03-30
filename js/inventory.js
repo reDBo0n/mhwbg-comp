@@ -20,7 +20,7 @@ function create_list(data, div) {
 		const buttons = document.createElement("div");
 		
 		const sub_button = document.createElement("button");
-		sub_button.setAttribute("onclick", `sub_one('${item.id}')`);
+		sub_button.setAttribute("onclick", `sub_day('${item.id}')`);
 		sub_button.innerText = "-";
 
 		const text = document.createElement("span");
@@ -34,7 +34,7 @@ function create_list(data, div) {
 		}
 		
 		const add_button = document.createElement("button");
-		add_button.setAttribute("onclick", `add_one('${item.id}')`);
+		add_button.setAttribute("onclick", `add_day('${item.id}')`);
 		add_button.innerText = "+";
 
 		buttons.appendChild(sub_button);

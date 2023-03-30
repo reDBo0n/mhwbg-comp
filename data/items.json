@@ -2554,31 +2554,31 @@
 		},
 		{
 			"id":		"tobi-kadachi-claw",
-			"name":		"Tobi Kadachi Claw",
+			"name":		"Tobi-Kadachi Claw",
 			"type":		"white-claw",
 			"icon":		"tobi-kadachi"
 		},
 		{
 			"id":		"tobi-kadachi-electrode",
-			"name":		"Tobi Kadachi Electrode",
+			"name":		"Tobi-Kadachi Electrode",
 			"type":		"white-head",
 			"icon":		"tobi-kadachi"
 		},
 		{
 			"id":		"tobi-kadachi-membrane",
-			"name":		"Tobi Kadachi Membrane",
+			"name":		"Tobi-Kadachi Membrane",
 			"type":		"white-head",
 			"icon":		"tobi-kadachi"
 		},
 		{
 			"id":		"tobi-kadachi-pelt",
-			"name":		"Tobi Kadachi Pelt",
+			"name":		"Tobi-Kadachi Pelt",
 			"type":		"white-pelt",
 			"icon":		"tobi-kadachi"
 		},
 		{
 			"id":		"tobi-kadachi-scale",
-			"name":		"Tobi Kadachi Scale",
+			"name":		"Tobi-Kadachi Scale",
 			"type":		"white-scale",
 			"icon":		"tobi-kadachi"
 		},
@@ -2784,6 +2784,260 @@
 			"id":		"teostra-webbing",
 			"name":		"Teostra Webbing",
 			"type":		"white-honey",
+			"icon":		"teostra"
+		}
+	],
+	"quests": [
+		{
+			"id":		"barroth-1",
+			"name":		"Barroth *",
+			"type":		"white-head",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"barroth-2",
+			"name":		"Barroth **",
+			"type":		"white-head",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"barroth-3",
+			"name":		"Barroth ***",
+			"type":		"white-head",
+			"icon":		"barroth"
+		},
+		{
+			"id":		"great-jagras-1",
+			"name":		"Great Jagras *",
+			"type":		"white-head",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"great-jagras-2",
+			"name":		"Great Jagras **",
+			"type":		"white-head",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"great-jagras-3",
+			"name":		"Great Jagras ***",
+			"type":		"white-head",
+			"icon":		"jagras"
+		},
+		{
+			"id":		"kulu-ya-ku-1",
+			"name":		"Kulu-Ya-Ku *",
+			"type":		"yellow-head",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"kulu-ya-ku-2",
+			"name":		"Kulu-Ya-Ku **",
+			"type":		"yellow-head",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"kulu-ya-ku-3",
+			"name":		"Kulu-Ya-Ku ***",
+			"type":		"yellow-head",
+			"icon":		"kulu-ya-ku"
+		},
+		{
+			"id":		"pukei-pukei-1",
+			"name":		"Pukei-Pukei *",
+			"type":		"yellow-head",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"pukei-pukei-2",
+			"name":		"Pukei-Pukei **",
+			"type":		"yellow-head",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"pukei-pukei-3",
+			"name":		"Pukei-Pukei ***",
+			"type":		"yellow-head",
+			"icon":		"pukei-pukei"
+		},
+		{
+			"id":		"tobi-kadachi-1",
+			"name":		"Tobi-Kadachi *",
+			"type":		"yellow-head",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"tobi-kadachi-2",
+			"name":		"Tobi-Kadachi **",
+			"type":		"yellow-head",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"tobi-kadachi-3",
+			"name":		"Tobi-Kadachi ***",
+			"type":		"yellow-head",
+			"icon":		"tobi-kadachi"
+		},
+		{
+			"id":		"anjanath-1",
+			"name":		"Anjanath *",
+			"type":		"green-head",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"anjanath-2",
+			"name":		"Anjanath **",
+			"type":		"green-head",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"anjanath-3",
+			"name":		"Anjanath ***",
+			"type":		"green-head",
+			"icon":		"anjanath"
+		},
+		{
+			"id":		"jyruatodus-1",
+			"name":		"Jyruatodus *",
+			"type":		"green-head",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"jyruatodus-2",
+			"name":		"Jyruatodus **",
+			"type":		"green-head",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"jyruatodus-3",
+			"name":		"Jyruatodus ***",
+			"type":		"green-head",
+			"icon":		"jyuratodus"
+		},
+		{
+			"id":		"azure-rathalos-1",
+			"name":		"Azure Rathalos *",
+			"type":		"purple-head",
+			"icon":		"azure-rathalos"
+		},
+		{
+			"id":		"azure-rathalos-2",
+			"name":		"Azure Rathalos **",
+			"type":		"purple-head",
+			"icon":		"azure-rathalos"
+		},
+		{
+			"id":		"azure-rathalos-4",
+			"name":		"Azure Rathalos ****",
+			"type":		"purple-head",
+			"icon":		"azure-rathalos"
+		},
+		{
+			"id":		"black-diablos-1",
+			"name":		"Black Diablos *",
+			"type":		"purple-head",
+			"icon":		"black-diablos"
+		},
+		{
+			"id":		"black-diablos-2",
+			"name":		"Black Diablos **",
+			"type":		"purple-head",
+			"icon":		"black-diablos"
+		},
+		{
+			"id":		"black-diablos-4",
+			"name":		"Black Diablos ****",
+			"type":		"purple-head",
+			"icon":		"black-diablos"
+		},
+		{
+			"id":		"diablos-1",
+			"name":		"Diablos *",
+			"type":		"purple-head",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"diablos-2",
+			"name":		"Diablos **",
+			"type":		"purple-head",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"diablos-4",
+			"name":		"Diablos ****",
+			"type":		"purple-head",
+			"icon":		"diablos"
+		},
+		{
+			"id":		"rathalos-1",
+			"name":		"Rathalos *",
+			"type":		"purple-head",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"rathalos-2",
+			"name":		"Rathalos **",
+			"type":		"purple-head",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"rathalos-4",
+			"name":		"Rathalos ****",
+			"type":		"purple-head",
+			"icon":		"rathalos"
+		},
+		{
+			"id":		"kushala-daora-1",
+			"name":		"Kushala Daora *",
+			"type":		"orange-head",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"kushala-daora-2",
+			"name":		"Kushala Daora **",
+			"type":		"orange-head",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"kushala-daora-5",
+			"name":		"Kushala Daora *****",
+			"type":		"orange-head",
+			"icon":		"kushala-daora"
+		},
+		{
+			"id":		"nergigante-1",
+			"name":		"Nergigante *",
+			"type":		"orange-head",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"nergigante-2",
+			"name":		"Nergigante **",
+			"type":		"orange-head",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"nergigante-5",
+			"name":		"Nergigante *****",
+			"type":		"orange-head",
+			"icon":		"nergigante"
+		},
+		{
+			"id":		"teostra-1",
+			"name":		"Teostra *",
+			"type":		"orange-head",
+			"icon":		"teostra"
+		},
+		{
+			"id":		"teostra-2",
+			"name":		"Teostra **",
+			"type":		"orange-head",
+			"icon":		"teostra"
+		},
+		{
+			"id":		"teostra-5",
+			"name":		"Teostra *****",
+			"type":		"orange-head",
 			"icon":		"teostra"
 		}
 	]
