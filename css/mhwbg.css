@@ -53,8 +53,37 @@ button.reset {
 	align-items:		center;
 	justify-content:	center;
 	row-gap:			20px;
+	width:				360px;
 }
 
 .list label {
 	flex-basis:			33.333333%;
+}
+
+button.tab {
+	margin:				15px;
+	width: 				360px;
+	color:				rgb(200, 200, 200);
+	background-color:	black;
+}
+
+button.tab:hover {
+	color:				whitesmoke;
+	background-color: 	seagreen;
+}
+
+button.calc {
+	width:				25px;
+	height:				25px;
+	line-height: 		5px;
+}
+
+div {
+	display: 			table;
+	margin: 			0 auto;
+}
+
+label {
+	display: 			table;
+	margin:				0 auto;
 }

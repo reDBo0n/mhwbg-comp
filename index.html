@@ -17,17 +17,19 @@
 		</div>
 		<div>
 			<h1>Potions</h1>
-			<button type="button" onclick="sub_one('potions')">-</button>
-			<span name="potions" id="potions">2</span>
-			<button type="button" onclick="add_one('potions', 3)">+</button>
+			<div>
+				<button class="calc" type="button" onclick="sub_one('potions')">-</button>
+				<span name="potions" id="potions">2</span>
+				<button class="calc" type="button" onclick="add_one('potions', 3)">+</button>
+			</div>
 		</div>
 		<div>
 			<h1>Campaign Days</h1>
 			<div id="day-selector">
 				<h2>Please select your campaign length</h2>
-				<button type="button" onclick="sub_one('days')">-</button>
+				<button class="calc" type="button" onclick="sub_one('days')">-</button>
 				<span name="days" id="days">25</span>
-				<button type="button" onclick="add_one('days')">+</button>
+				<button class="calc" type="button" onclick="add_one('days')">+</button>
 				<button type="button" onclick="start_campaign()">START</button>
 			</div>
 			<div id="selected-days" style="display:none">

@@ -9,6 +9,11 @@ function fill_quests() {
 }
 
 function create_list(data, div) {
+	if(localStorage.getItem("started") !== "true") {
+		quests.appendChild(document.createTextNode("Please start your campaign first"));
+		return;
+	}
+
 	data.forEach((item) => {
 		const label = document.createElement("label");
 		label.setAttribute("for", item.id);
@@ -18,6 +23,7 @@ function create_list(data, div) {
 		const sub_button = document.createElement("button");
 		sub_button.setAttribute("onclick", `add_day('${item.id}')`);
 		sub_button.innerText = "-";
+		sub_button.className = "calc";
 
 		const text = document.createElement("span");
 		text.setAttribute("name", item.id);
@@ -32,6 +38,7 @@ function create_list(data, div) {
 		const add_button = document.createElement("button");
 		add_button.setAttribute("onclick", `sub_day('${item.id}')`);
 		add_button.innerText = "+";
+		add_button.className = "calc";
 
 		buttons.appendChild(sub_button);
 		buttons.appendChild(text);
@@ -42,7 +49,6 @@ function create_list(data, div) {
 		type.width = 20;
 		type.height = 20;
 
-		label.appendChild(buttons);
 		label.appendChild(type);
 
 		if(item.icon !== undefined) {
@@ -55,13 +61,47 @@ function create_list(data, div) {
 		}
 
 		label.appendChild(document.createTextNode(item.name));
+		label.appendChild(buttons);
 		div.appendChild(label);
 	});
+
+	const label = document.createElement("label");
+	label.setAttribute("for", "downtime");
+
+	const buttons = document.createElement("div");
+		
+	const sub_button = document.createElement("button");
+	sub_button.setAttribute("onclick", `add_day('downtime')`);
+	sub_button.innerText = "-";
+	sub_button.className = "calc";
+
+	const text = document.createElement("span");
+	text.setAttribute("name", "downtime");
+	text.setAttribute("id", "downtime");
+	content = localStorage.getItem("downtime");
+	if(content === null) {
+		text.innerText = "0";
+	}else{
+		text.innerText = content;
+	}
+		
+	const add_button = document.createElement("button");
+	add_button.setAttribute("onclick", `sub_day('downtime', Number.MAX_SAFE_INTEGER)`);
+	add_button.innerText = "+";
+	add_button.className = "calc";
+
+	buttons.appendChild(sub_button);
+	buttons.appendChild(text);
+	buttons.appendChild(add_button);
+
+	label.appendChild(document.createTextNode("Downtime Activities"));
+	label.appendChild(buttons)
+	div.appendChild(label);
 }
 
-function sub_day(form_name) {
+function sub_day(form_name, max=4) {
 	const tmp = Number(localStorage.getItem(form_name));
-	if(tmp < 4) {
+	if(tmp < max) {
 		localStorage.setItem("days", Number(localStorage.getItem("days"))-1);
 		add_one(form_name);
 	}

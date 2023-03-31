@@ -22,6 +22,7 @@ function create_list(data, div) {
 		const sub_button = document.createElement("button");
 		sub_button.setAttribute("onclick", `sub_day('${item.id}')`);
 		sub_button.innerText = "-";
+		sub_button.className = "calc";
 
 		const text = document.createElement("span");
 		text.setAttribute("name", item.id);
@@ -36,6 +37,7 @@ function create_list(data, div) {
 		const add_button = document.createElement("button");
 		add_button.setAttribute("onclick", `add_day('${item.id}')`);
 		add_button.innerText = "+";
+		add_button.className = "calc";
 
 		buttons.appendChild(sub_button);
 		buttons.appendChild(text);
@@ -46,7 +48,6 @@ function create_list(data, div) {
 		type.width = 20;
 		type.height = 20;
 
-		label.appendChild(buttons);
 		label.appendChild(type);
 
 		if(item.icon !== undefined) {
@@ -59,6 +60,7 @@ function create_list(data, div) {
 		}
 
 		label.appendChild(document.createTextNode(item.name));
+		label.appendChild(buttons);
 		div.appendChild(label);
 	});
 }
