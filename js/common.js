@@ -55,3 +55,7 @@ function toggle_me(form_name) {
 }
 
 load_data();
+
+if(navigator.serviceWorker) {
+	navigator.serviceWorker.register("/mhwbg-comp/sw.js", {scope: "/mhwbg-comp/"});
+}

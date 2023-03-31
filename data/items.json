@@ -853,7 +853,7 @@
 		{
 			"id":		"bone-gunlance",
 			"name":		"Bone Gunlance",
-			"default":	false,
+			"default":	true,
 			"tier":		"white-gunlance",
 			"icon":		"yellow-bone"
 		},
@@ -974,7 +974,7 @@
 		{
 			"id":		"bone-bludgeon",
 			"name":		"Bone Bludgeon",
-			"default":	false,
+			"default":	true,
 			"tier":		"white-hammer",
 			"icon":		"yellow-bone"
 		},
@@ -1230,7 +1230,7 @@
 		{
 			"id":		"bone-horn",
 			"name":		"Bone Horn",
-			"default":	false,
+			"default":	true,
 			"tier":		"white-hunting-horn",
 			"icon":		"yellow-bone"
 		},
@@ -2790,255 +2790,297 @@
 	"quests": [
 		{
 			"id":		"barroth-1",
-			"name":		"Barroth *",
+			"name":		"Barroth",
 			"type":		"white-head",
-			"icon":		"barroth"
+			"icon":		"barroth",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"barroth-2",
-			"name":		"Barroth **",
+			"name":		"Barroth",
 			"type":		"white-head",
-			"icon":		"barroth"
+			"icon":		"barroth",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"barroth-3",
-			"name":		"Barroth ***",
+			"name":		"Barroth",
 			"type":		"white-head",
-			"icon":		"barroth"
+			"icon":		"barroth",
+			"stars":	"three-star"
 		},
 		{
 			"id":		"great-jagras-1",
-			"name":		"Great Jagras *",
+			"name":		"Great Jagras",
 			"type":		"white-head",
-			"icon":		"jagras"
+			"icon":		"jagras",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"great-jagras-2",
-			"name":		"Great Jagras **",
+			"name":		"Great Jagras",
 			"type":		"white-head",
-			"icon":		"jagras"
+			"icon":		"jagras",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"great-jagras-3",
-			"name":		"Great Jagras ***",
+			"name":		"Great Jagras",
 			"type":		"white-head",
-			"icon":		"jagras"
+			"icon":		"jagras",
+			"stars":	"three-star"
 		},
 		{
 			"id":		"kulu-ya-ku-1",
-			"name":		"Kulu-Ya-Ku *",
+			"name":		"Kulu-Ya-Ku",
 			"type":		"yellow-head",
-			"icon":		"kulu-ya-ku"
+			"icon":		"kulu-ya-ku",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"kulu-ya-ku-2",
-			"name":		"Kulu-Ya-Ku **",
+			"name":		"Kulu-Ya-Ku",
 			"type":		"yellow-head",
-			"icon":		"kulu-ya-ku"
+			"icon":		"kulu-ya-ku",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"kulu-ya-ku-3",
-			"name":		"Kulu-Ya-Ku ***",
+			"name":		"Kulu-Ya-Ku",
 			"type":		"yellow-head",
-			"icon":		"kulu-ya-ku"
+			"icon":		"kulu-ya-ku",
+			"stars":	"three-star"
 		},
 		{
 			"id":		"pukei-pukei-1",
-			"name":		"Pukei-Pukei *",
+			"name":		"Pukei-Pukei",
 			"type":		"yellow-head",
-			"icon":		"pukei-pukei"
+			"icon":		"pukei-pukei",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"pukei-pukei-2",
-			"name":		"Pukei-Pukei **",
+			"name":		"Pukei-Pukei",
 			"type":		"yellow-head",
-			"icon":		"pukei-pukei"
+			"icon":		"pukei-pukei",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"pukei-pukei-3",
-			"name":		"Pukei-Pukei ***",
+			"name":		"Pukei-Pukei",
 			"type":		"yellow-head",
-			"icon":		"pukei-pukei"
+			"icon":		"pukei-pukei",
+			"stars":	"three-star"
 		},
 		{
 			"id":		"tobi-kadachi-1",
-			"name":		"Tobi-Kadachi *",
+			"name":		"Tobi-Kadachi",
 			"type":		"yellow-head",
-			"icon":		"tobi-kadachi"
+			"icon":		"tobi-kadachi",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"tobi-kadachi-2",
-			"name":		"Tobi-Kadachi **",
+			"name":		"Tobi-Kadachi",
 			"type":		"yellow-head",
-			"icon":		"tobi-kadachi"
+			"icon":		"tobi-kadachi",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"tobi-kadachi-3",
-			"name":		"Tobi-Kadachi ***",
+			"name":		"Tobi-Kadachi",
 			"type":		"yellow-head",
-			"icon":		"tobi-kadachi"
+			"icon":		"tobi-kadachi",
+			"stars":	"three-star"
 		},
 		{
 			"id":		"anjanath-1",
-			"name":		"Anjanath *",
+			"name":		"Anjanath",
 			"type":		"green-head",
-			"icon":		"anjanath"
+			"icon":		"anjanath",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"anjanath-2",
-			"name":		"Anjanath **",
+			"name":		"Anjanath",
 			"type":		"green-head",
-			"icon":		"anjanath"
+			"icon":		"anjanath",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"anjanath-3",
-			"name":		"Anjanath ***",
+			"name":		"Anjanath",
 			"type":		"green-head",
-			"icon":		"anjanath"
+			"icon":		"anjanath",
+			"stars":	"three-star"
 		},
 		{
 			"id":		"jyruatodus-1",
-			"name":		"Jyruatodus *",
+			"name":		"Jyruatodus",
 			"type":		"green-head",
-			"icon":		"jyuratodus"
+			"icon":		"jyuratodus",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"jyruatodus-2",
-			"name":		"Jyruatodus **",
+			"name":		"Jyruatodus",
 			"type":		"green-head",
-			"icon":		"jyuratodus"
+			"icon":		"jyuratodus",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"jyruatodus-3",
-			"name":		"Jyruatodus ***",
+			"name":		"Jyruatodus",
 			"type":		"green-head",
-			"icon":		"jyuratodus"
+			"icon":		"jyuratodus",
+			"stars":	"three-star"
 		},
 		{
 			"id":		"azure-rathalos-1",
-			"name":		"Azure Rathalos *",
+			"name":		"Azure Rathalos",
 			"type":		"purple-head",
-			"icon":		"azure-rathalos"
+			"icon":		"azure-rathalos",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"azure-rathalos-2",
-			"name":		"Azure Rathalos **",
+			"name":		"Azure Rathalos",
 			"type":		"purple-head",
-			"icon":		"azure-rathalos"
+			"icon":		"azure-rathalos",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"azure-rathalos-4",
-			"name":		"Azure Rathalos ****",
+			"name":		"Azure Rathalos",
 			"type":		"purple-head",
-			"icon":		"azure-rathalos"
+			"icon":		"azure-rathalos",
+			"stars":	"four-star"
 		},
 		{
 			"id":		"black-diablos-1",
-			"name":		"Black Diablos *",
+			"name":		"Black Diablos",
 			"type":		"purple-head",
-			"icon":		"black-diablos"
+			"icon":		"black-diablos",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"black-diablos-2",
-			"name":		"Black Diablos **",
+			"name":		"Black Diablos",
 			"type":		"purple-head",
-			"icon":		"black-diablos"
+			"icon":		"black-diablos",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"black-diablos-4",
-			"name":		"Black Diablos ****",
+			"name":		"Black Diablos",
 			"type":		"purple-head",
-			"icon":		"black-diablos"
+			"icon":		"black-diablos",
+			"stars":	"four-star"
 		},
 		{
 			"id":		"diablos-1",
-			"name":		"Diablos *",
+			"name":		"Diablos",
 			"type":		"purple-head",
-			"icon":		"diablos"
+			"icon":		"diablos",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"diablos-2",
-			"name":		"Diablos **",
+			"name":		"Diablos",
 			"type":		"purple-head",
-			"icon":		"diablos"
+			"icon":		"diablos",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"diablos-4",
-			"name":		"Diablos ****",
+			"name":		"Diablos",
 			"type":		"purple-head",
-			"icon":		"diablos"
+			"icon":		"diablos",
+			"stars":	"four-star"
 		},
 		{
 			"id":		"rathalos-1",
-			"name":		"Rathalos *",
+			"name":		"Rathalos",
 			"type":		"purple-head",
-			"icon":		"rathalos"
+			"icon":		"rathalos",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"rathalos-2",
-			"name":		"Rathalos **",
+			"name":		"Rathalos",
 			"type":		"purple-head",
-			"icon":		"rathalos"
+			"icon":		"rathalos",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"rathalos-4",
-			"name":		"Rathalos ****",
+			"name":		"Rathalos",
 			"type":		"purple-head",
-			"icon":		"rathalos"
+			"icon":		"rathalos",
+			"stars":	"four-star"
 		},
 		{
 			"id":		"kushala-daora-1",
-			"name":		"Kushala Daora *",
+			"name":		"Kushala Daora",
 			"type":		"orange-head",
-			"icon":		"kushala-daora"
+			"icon":		"kushala-daora",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"kushala-daora-2",
-			"name":		"Kushala Daora **",
+			"name":		"Kushala Daora",
 			"type":		"orange-head",
-			"icon":		"kushala-daora"
+			"icon":		"kushala-daora",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"kushala-daora-5",
-			"name":		"Kushala Daora *****",
+			"name":		"Kushala Daora",
 			"type":		"orange-head",
-			"icon":		"kushala-daora"
+			"icon":		"kushala-daora",
+			"stars":	"five-star"
 		},
 		{
 			"id":		"nergigante-1",
-			"name":		"Nergigante *",
+			"name":		"Nergigante",
 			"type":		"orange-head",
-			"icon":		"nergigante"
+			"icon":		"nergigante",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"nergigante-2",
-			"name":		"Nergigante **",
+			"name":		"Nergigante",
 			"type":		"orange-head",
-			"icon":		"nergigante"
+			"icon":		"nergigante",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"nergigante-5",
-			"name":		"Nergigante *****",
+			"name":		"Nergigante",
 			"type":		"orange-head",
-			"icon":		"nergigante"
+			"icon":		"nergigante",
+			"stars":	"five-star"
 		},
 		{
 			"id":		"teostra-1",
-			"name":		"Teostra *",
+			"name":		"Teostra",
 			"type":		"orange-head",
-			"icon":		"teostra"
+			"icon":		"teostra",
+			"stars":	"one-star"
 		},
 		{
 			"id":		"teostra-2",
-			"name":		"Teostra **",
+			"name":		"Teostra",
 			"type":		"orange-head",
-			"icon":		"teostra"
+			"icon":		"teostra",
+			"stars":	"two-star"
 		},
 		{
 			"id":		"teostra-5",
-			"name":		"Teostra *****",
+			"name":		"Teostra",
 			"type":		"orange-head",
-			"icon":		"teostra"
+			"icon":		"teostra",
+			"stars":	"five-star"
 		}
 	]
 }

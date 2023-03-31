@@ -53,7 +53,7 @@ button.reset {
 	align-items:		center;
 	justify-content:	center;
 	row-gap:			20px;
-	width:				360px;
+	width:				440px;
 }
 
 .list label {
@@ -62,7 +62,7 @@ button.reset {
 
 button.tab {
 	margin:				15px;
-	width: 				360px;
+	width: 				440px;
 	color:				rgb(200, 200, 200);
 	background-color:	black;
 }

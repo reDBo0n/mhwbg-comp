@@ -2,7 +2,7 @@
 <html lang="en-US" dir="ltr">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initiali-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 		<title>MHWBG Companion</title>
 		<link rel="canonical" href="https://redbo0n.github.io/mhwbg-comp/">
 		<link rel="stylesheet" href="./css/mhwbg.css">
@@ -10,10 +10,10 @@
 	</head>
 	<body>
 		<div class="topnav">
-			<a class="active" href="./index.html">Main</a>
-			<a href="./html/quest.html">Quest</a>
-			<a href="./html/armory.html">Armory</a>
-			<a href="./html/inventory.html">Inventory</a>
+			<a class="active" href="./index.html"><img src="./data/icons/main.png" width="20" height="20">Main</a>
+			<a href="./html/quest.html"><img src="./data/icons/quest.png" width="20" height="20">Quest</a>
+			<a href="./html/armory.html"><img src="./data/icons/forge.png" width="20" height="20">Armory</a>
+			<a href="./html/inventory.html"><img src="./data/icons/inventory.png" width="20" height="20">Inventory</a>
 		</div>
 		<div>
 			<h1>Potions</h1>
@@ -43,9 +43,4 @@
 	</footer>
 	<script src="./js/common.js"></script>
 	<script src="./js/main.js"></script>
-	<script>
-		if(navigator.serviceWorker) {
-			navigator.serviceWorker.register("/mhwbg-comp/sw.js", {scope: "/mhwbg-comp/"});
-		}
-	</script>
 </html>

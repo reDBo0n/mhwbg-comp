@@ -61,6 +61,13 @@ function create_list(data, div) {
 		}
 
 		label.appendChild(document.createTextNode(item.name));
+
+		const difficulty = document.createElement("img");
+		difficulty.src = "../data/icons/" + item.stars + ".png";
+		difficulty.width = 20;
+		difficulty.height = 20;
+		label.appendChild(difficulty);
+
 		label.appendChild(buttons);
 		div.appendChild(label);
 	});
