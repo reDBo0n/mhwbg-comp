@@ -19,6 +19,7 @@ function create_list(data, div) {
 		label.setAttribute("for", item.id);
 
 		const buttons = document.createElement("div");
+		buttons.className = "calc";
 		
 		const sub_button = document.createElement("button");
 		sub_button.setAttribute("onclick", `add_day('${item.id}')`);
@@ -44,21 +45,24 @@ function create_list(data, div) {
 		buttons.appendChild(text);
 		buttons.appendChild(add_button);
 
+		const icons = document.createElement("div");
+		icons.className = "icons";
+
 		const type = document.createElement("img");
 		type.src = "../data/icons/" + item.type + ".png";
 		type.width = 20;
 		type.height = 20;
 
-		label.appendChild(type);
+		icons.appendChild(type);
 
-		if(item.icon !== undefined) {
-			const icon = document.createElement("img");
-			icon.src = "../data/icons/" + item.icon + ".png";
-			icon.width = 20;
-			icon.height = 20;
+		const icon = document.createElement("img");
+		icon.src = "../data/icons/" + item.icon + ".png";
+		icon.width = 20;
+		icon.height = 20;
 
-			label.appendChild(icon);
-		}
+		icons.appendChild(icon);
+
+		label.appendChild(icons);
 
 		label.appendChild(document.createTextNode(item.name));
 
@@ -66,7 +70,12 @@ function create_list(data, div) {
 		difficulty.src = "../data/icons/" + item.stars + ".png";
 		difficulty.width = 20;
 		difficulty.height = 20;
-		label.appendChild(difficulty);
+
+		const diff = document.createElement("div");
+		diff.className = "icons";
+
+		diff.appendChild(difficulty);
+		label.appendChild(diff);
 
 		label.appendChild(buttons);
 		div.appendChild(label);
@@ -76,6 +85,7 @@ function create_list(data, div) {
 	label.setAttribute("for", "downtime");
 
 	const buttons = document.createElement("div");
+	buttons.className = "calc";
 		
 	const sub_button = document.createElement("button");
 	sub_button.setAttribute("onclick", `add_day('downtime')`);

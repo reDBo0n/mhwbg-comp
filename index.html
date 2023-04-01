@@ -10,16 +10,19 @@
 	</head>
 	<body>
 		<div class="topnav">
-			<a class="active" href="./index.html"><img src="./data/icons/main.png" width="20" height="20">Main</a>
-			<a href="./html/quest.html"><img src="./data/icons/quest.png" width="20" height="20">Quest</a>
-			<a href="./html/armory.html"><img src="./data/icons/forge.png" width="20" height="20">Armory</a>
-			<a href="./html/inventory.html"><img src="./data/icons/inventory.png" width="20" height="20">Inventory</a>
+			<a class="active" href="./index.html"><img src="./data/icons/main.png" width="20" height="20"><span>Main</span></a>
+			<a href="./html/quest.html"><img src="./data/icons/quest.png" width="20" height="20"><span>Quest</span></a>
+			<a href="./html/armory.html"><img src="./data/icons/forge.png" width="20" height="20"><span>Armory</span></a>
+			<a href="./html/inventory.html"><img src="./data/icons/inventory.png" width="20" height="20"><span>Box</span></a>
 		</div>
 		<div>
 			<h1>Potions</h1>
 			<div>
+				<img src="./data/icons/potion.png" width="50" height="50">
+			</div>
+			<div>
 				<button class="calc" type="button" onclick="sub_one('potions')">-</button>
-				<span name="potions" id="potions">2</span>
+				<span class="potions" name="potions" id="potions">2</span>
 				<button class="calc" type="button" onclick="add_one('potions', 3)">+</button>
 			</div>
 		</div>

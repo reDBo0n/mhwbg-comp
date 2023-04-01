@@ -37,7 +37,7 @@ function load_data() {
 
 function reset_data() {
 	localStorage.clear();
-	if(window.location.pathname !== "/index.html") {
+	if(window.location.pathname !== "/mhwbg-comp/index.html") {
 		location.assign("../index.html");
 	}else{
 		location.reload();

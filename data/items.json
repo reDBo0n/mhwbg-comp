@@ -3,21 +3,21 @@
 		{
 			"id":		"alloy-helm",
 			"name":		"Alloy Helm",
-			"default":	true,
+			"default":	false,
 			"tier":		"yellow-helm",
 			"icon":		"white-ore"
 		},
 		{
 			"id":		"alloy-mail",
 			"name":		"Alloy Mail",
-			"default":	true,
+			"default":	false,
 			"tier":		"yellow-mail",
 			"icon":		"white-ore"
 		},
 		{
 			"id":		"alloy-greaves",
 			"name":		"Alloy Greaves",
-			"default":	true,
+			"default":	false,
 			"tier":		"yellow-greaves",
 			"icon":		"white-ore"
 		},

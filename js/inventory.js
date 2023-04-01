@@ -48,7 +48,10 @@ function create_list(data, div) {
 		type.width = 20;
 		type.height = 20;
 
-		label.appendChild(type);
+		const icons = document.createElement("div");
+		icons.className = "icons";
+
+		icons.appendChild(type);
 
 		if(item.icon !== undefined) {
 			const icon = document.createElement("img");
@@ -56,10 +59,12 @@ function create_list(data, div) {
 			icon.width = 20;
 			icon.height = 20;
 
-			label.appendChild(icon);
+			icons.appendChild(icon);
 		}
+		label.appendChild(icons);
 
 		label.appendChild(document.createTextNode(item.name));
+
 		label.appendChild(buttons);
 		div.appendChild(label);
 	});

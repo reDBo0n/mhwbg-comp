@@ -69,8 +69,11 @@ function create_list(data, div) {
 		icon.width = 20;
 		icon.height = 20;
 
+		const icons = document.createElement("div");
+		icons.className = "icons";
+
 		label.appendChild(checkbox);
-		label.appendChild(tier);
+		icons.appendChild(tier);
 
 		if(item.icon === "kushala-daora-teostra") {
 			icon.src = "../data/icons/teostra.png";
@@ -80,9 +83,10 @@ function create_list(data, div) {
 			icon2.width = 20;
 			icon2.height = 20;
 
-			label.appendChild(icon2);
+			icons.appendChild(icon2);
 		}
-		label.appendChild(icon);
+		icons.appendChild(icon);
+		label.appendChild(icons);
 
 		label.appendChild(document.createTextNode(item.name));
 		div.appendChild(label);

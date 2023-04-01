@@ -26,6 +26,7 @@ button {
 	padding:			14px 16px;
 	text-decoration:	none;
 	font-size:			17px;
+	width:				58px;
 }
 
 .topnav a:hover {
@@ -36,6 +37,11 @@ button {
 .topnav a.active {
 	background-color:	#04aa6d;
 	color:				white;
+}
+
+.topnav span::before {
+	content: 			"\a";
+	white-space:		pre;
 }
 
 footer {
@@ -53,7 +59,7 @@ button.reset {
 	align-items:		center;
 	justify-content:	center;
 	row-gap:			20px;
-	width:				440px;
+	width:				360px;
 }
 
 .list label {
@@ -61,8 +67,9 @@ button.reset {
 }
 
 button.tab {
-	margin:				15px;
-	width: 				440px;
+	margin-top:			15px;
+	margin-bottom: 		15px;
+	width: 				360px;
 	color:				rgb(200, 200, 200);
 	background-color:	black;
 }
@@ -86,4 +93,12 @@ div {
 label {
 	display: 			table;
 	margin:				0 auto;
+}
+
+label {
+	text-align: 		center;
+}
+
+div.calc {
+	text-align: 		initial;
 }
