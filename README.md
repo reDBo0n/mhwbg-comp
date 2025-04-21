@@ -1,3 +1,6 @@
+[!NOTE]
+This project is no longer maintained, please refer to [bg_handler](https://github.com/reDBo0n/bg_handler) as an alternative.
+
 # mhwbg-comp
 A companion app for the MHW Board Game
 
